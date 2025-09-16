@@ -12,7 +12,7 @@
   </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3 sticky-top">
           <div class="container container-md container-lg">
             <a class="navbar-brand" href="index.html"><img src="/imgs/Logo.png" alt="KnowWaste" class="logo-height"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -20,7 +20,15 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav align-items-center">
-                <li class="nav-item text-uppercase fw-bold pe-2"><a class="nav-link " href="about.html">About</a></li>
+                <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
+                <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About
+                  <i class="bi bi-chevron-down icon-hidden pl-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="expert.html">Experts</a></li>
+                </ul>
+              </li>
                 <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
                     <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marine Debris
                     <i class="bi bi-chevron-down icon-hidden pl-2"></i>
@@ -105,7 +113,7 @@
                 <h4 class="text-blue">126,820,000</h4>
                 <p class="m-0">Population</p>
               </div>
-              <div><img src="imgs/to-connect.png" alt=""></div>
+              <div><img src="icons/crowd-of-users.png" alt="" height="60px"></div>
             </div>
           </div>
 
@@ -115,7 +123,7 @@
                 <h4 class="text-blue">93.5</h4>
                 <p class="m-0">Urban Population</p>
               </div>
-              <div><img src="imgs/to-connect.png" alt=""></div>
+              <div><img src="icons/crowd-of-users.png" alt="" height="60px"></div>
             </div>
           </div>
 
@@ -125,7 +133,7 @@
                 <h4 class="text-blue">377,962</h4>
                 <p class="m-0">Area</p>
               </div>
-              <div><img src="imgs/to-connect.png" alt=""></div>
+              <div><img src="icons/map_14948265.png" alt="" height="60px"></div>
             </div>
           </div>
 
@@ -135,7 +143,7 @@
                 <h4 class="text-blue">36,700</h4>
                 <p class="m-0">Income Level $</p>
               </div>
-              <div><img src="imgs/to-connect.png" alt=""></div>
+              <div><img src="icons/save-money.png" alt="" height="60px"></div>
             </div>
           </div>
           
@@ -266,8 +274,8 @@
                 <strong>Waste Management and Public Cleansing Act</strong>
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseOne" class="accordion-collapse collapse show ">
+              <div class="accordion-body bg-white px-0 text-muted">
                 <p>TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
                 
                 <p>They work with the local, informal waste pickers to collect the plastic from the environment and their household partnerships and take them to be processed at their Material Recovery Facility.</p>   
@@ -291,8 +299,8 @@
                 <strong>Act on the Promotion of Effective Utilization of Resources</strong>
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body bg-white px-0 text-muted">
                 It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
@@ -304,8 +312,8 @@
                 <strong>Containers and Packaging Recycling Act (enacted in 1995)</strong>
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body bg-white px-0 text-muted">
                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
@@ -317,8 +325,8 @@
                 <strong>Home Appliance Recycling Act (enacted in 1998)</strong>
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body bg-white px-0 text-muted">
                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
@@ -330,8 +338,8 @@
                 <strong>Food Recycling Act (enacted in 2000)</strong>
               </button>
             </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseFive" class="accordion-collapse collapse">
+              <div class="accordion-body bg-white px-0 text-muted">
                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
@@ -343,8 +351,8 @@
                 <strong>Construction Recycling Act (enacted in 2000)</strong>
               </button>
             </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white px-0">
+            <div id="collapseSix" class="accordion-collapse collapse">
+              <div class="accordion-body bg-white px-0 text-muted">
                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
@@ -356,53 +364,50 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light ptb-120">
-    <div class="container">
-      <div class="row text-muted  g-sm-2">
-        <div class="col-12 col-md-3 col-lg-3">
-          <img src="/imgs/Logo.png" alt="KnowWaste" height="40" class="pb-3">
-          <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
-          <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
-          <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
-          
-        </div>
-        <div class="col-12 col-md-3 col-lg-3">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled ">
-            <li><a href="about.html">About</a></li>
-            <li><a href="marine debris.html">Marine Debris</a></li>
-            <li><a href="news.html">News</a></li>
-            <!-- <li><a href="#">Events</a></li> -->
-          </ul>
-        </div>
-        <div class="col-12 col-md-3 col-lg-3">
-          <h5>Marine Debris</h5>
-          <ul class="list-unstyled ">
-            <li><a href="data.html">Data</a></li>
-            <li><a href="policy.html">Policy</a></li>
-            <li><a href="good-practices.html">Good Practices</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-3 col-lg-3">
-          <h5>Social Media</h5>
-          <div class="list-unstyled ">
-            <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
-            <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
-            <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
-          </div>
+  <footer style="background-color: #212529;">
+  <div class= "container container-md container-lg pt-60 pb-60">
+    <div class="row text-white g-sm-2">
+      <div class="col-12 col-md-3 col-lg-3">
+        <img src="/imgs/rrcp-logo.png" alt="KnowWaste" height="50" class="pb-3">
+        <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
+        <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
+        <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
+        
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled ">
+          <li><a href="about.html">About</a></li>
+          <li><a href="marine debris.html">Marine Debris</a></li>
+          <li><a href="news.html">News</a></li>
+          <!-- <li><a href="#">Events</a></li> -->
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Marine Debris</h5>
+        <ul class="list-unstyled ">
+          <li><a href="data.html">Data</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="good-practices.html">Good Practices</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Social Media</h5>
+        <div class="list-unstyled ">
+          <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
+          <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
+          <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
         </div>
       </div>
     </div>
-  </footer>
-  <div class="container">
-    <div class="d-flex text-center small text-muted py-3 justify-content-between align-items-center custom-wrap">
-      <div class="d-flex">
-        <img src="/imgs/rrcap-logo.png" alt="" class="pe-5 footer-logo">
-        <img src="/imgs/SSl-logo.png" alt="" class="footer-logo">
-      </div>
-        <small>© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
-      </div>
+    
+     
   </div>
+  <hr class="text-white">
+    <div class="text-white text-center pb-4">
+      <small class="fw-lighter">© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
+    </div>
+  </footer>
 
   <!-- bootstrap js  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

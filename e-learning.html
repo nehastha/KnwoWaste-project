@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3 sticky-top">
         <div class="container container-md container-lg">
           <a class="navbar-brand" href="index.html"><img src="/imgs/Logo.png" alt="KnowWaste" class="logo-height"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -21,7 +21,15 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav align-items-center">
-              <li class="nav-item text-uppercase fw-bold pe-2"><a class="nav-link " href="about.html">About</a></li>
+              <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
+                <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About
+                  <i class="bi bi-chevron-down icon-hidden pl-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="expert.html">Experts</a></li>
+                </ul>
+              </li>
               <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
                   <a class="nav-link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marine Debris
                   <i class="bi bi-chevron-down icon-hidden pl-2"></i>
@@ -85,11 +93,11 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-light ptb-120">
-  <div class="container">
-    <div class="row text-muted  g-sm-2">
+<footer style="background-color: #212529;">
+  <div class= "container container-md container-lg pt-60 pb-60">
+    <div class="row text-white g-sm-2">
       <div class="col-12 col-md-3 col-lg-3">
-        <img src="/imgs/Logo.png" alt="KnowWaste" height="40" class="pb-3">
+        <img src="/imgs/rrcp-logo.png" alt="KnowWaste" height="50" class="pb-3">
         <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
         <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
         <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
@@ -121,17 +129,14 @@
         </div>
       </div>
     </div>
+    
+     
   </div>
-</footer>
-<div class="container">
-  <div class="d-flex text-center small text-muted py-3 justify-content-between align-items-center custom-wrap">
-    <div class="d-flex">
-      <img src="/imgs/rrcap-logo.png" alt="" class="pe-5 footer-logo">
-      <img src="/imgs/SSl-logo.png" alt="" class="footer-logo">
+  <hr class="text-white">
+    <div class="text-white text-center pb-4">
+      <small class="fw-lighter">© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
     </div>
-      <small>© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
-    </div>
-</div>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

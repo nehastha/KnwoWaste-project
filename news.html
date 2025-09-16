@@ -12,7 +12,7 @@
   </head>
   <body>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3 sticky-top">
         <div class="container container-md container-lg">
           <a class="navbar-brand" href="index.html"><img src="/imgs/Logo.png" alt="KnowWaste" class="logo-height"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -20,7 +20,15 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav align-items-center">
-              <li class="nav-item text-uppercase fw-bold pe-2"><a class="nav-link " href="about.html">About</a></li>
+              <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
+                <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About
+                  <i class="bi bi-chevron-down icon-hidden pl-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="expert.html">Experts</a></li>
+                </ul>
+              </li>
               <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
                   <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marine Debris
                   <i class="bi bi-chevron-down icon-hidden pl-2"></i>
@@ -75,7 +83,7 @@
                     <h6 class="text-blue text-uppercase">Latest News</h6>
                           <h4 class="text-white">Strengthening Iligan City’s Fight Against Plastic Pollution</h4>
                           <small class="text-white">Philipines | 4 mins read</small>
-                          <p class="pt-1 text-white" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
+                          <p class="pt-1 text-white text-truncate-3">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
                           <a href="#" class="btn btn-link px-0 text-white">Start Reading →</a>
                   </div>
                 </div>
@@ -86,7 +94,7 @@
                     <h6 class="text-blue text-uppercase">Latest News</h6>
                           <h4 class="text-white">Strengthening Iligan City’s Fight Against Plastic Pollution</h4>
                           <small class="text-white">Philipines | 4 mins read</small>
-                          <p class="pt-1 text-white" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
+                          <p class="pt-1 text-white text-truncate-3">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
                           <a href="#" class="btn btn-link px-0 text-white">Start Reading →</a>
                   </div>
                 </div>
@@ -97,7 +105,7 @@
                     <h6 class="text-blue text-uppercase">Latest News</h6>
                           <h4 class="text-white">Strengthening Iligan City’s Fight Against Plastic Pollution</h4>
                           <small class="text-white">Philipines | 4 mins read</small>
-                          <p class="pt-1 text-white" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
+                          <p class="pt-1 text-white text-truncate-3">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
                           <a href="#" class="btn btn-link px-0 text-white">Start Reading →</a>
                   </div>
                 </div>
@@ -112,40 +120,34 @@
               </button>
             </div>
           
-
-          <!-- <div class="col-12 col-md-8 col-lg-9 position-relative h-510" >
-            <img src="imgs/news.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
-            <div style="background-color: rgba(0, 0, 0, 0.5); padding: 12px; width: 90%; position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0);">
-              <h6 class="text-blue text-uppercase">Latest News</h6>
-              <h4 class="text-white">Strengthening Iligan City’s Fight Against Plastic Pollution</h4>
-              <small class="text-white">Philipines | 4 mins read</small>
-              <p class="pt-1 text-white" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Regional Resource Centre for Asia and the Pacific at the Asian Institute of Technology (AIT RRC.AP), in collaboration with ERIA’s Regional Knowledge Centre for Marine Plastic Debris (RKC-MPD) and the City of Iligan, successfully conducted a Capacity Building Workshop on Preventing Recycling-Related Plastic Leakage on March 11-12, 2025, in Iligan City, Philippines. The workshop, held under the CaRMPAC Project, brought together over 90 key stakeholders to strengthen local and industry-led strategies for plastic waste management.</p>
-              <a href="#" class="btn btn-link px-0 text-white">Start Reading →</a>
-            </div>
-          </div> -->
-          
           <div class="col-12 col-md-4 col-lg-3 custom-border p-0 bg-offgrey h-510 vertical-scroll">
             <h5 class="bg-white" style="padding: 12px 20px; border-left: 5px solid #0FB4DF; border-radius: 8px 8px 0px 0px;">Upcomming events</h5>
             <div class="wrapper px-3">
               <div class="custom-border p-2 mb-4 bg-white">
-                <h6 class="m-0">2025 Global Conference</h6>
-                <small>8th August 2025</small><br>
-                <small>AIT Bangkok</small>
-                <p class="pt-3" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+                <a href="indv-event.html" target="_blank" style="text-decoration: none;">
+                  <h6 class="m-0 text-black">2025 Global Conference</h6>
+                  <small class="text-black">8th August 2025</small><br>
+                  <small class="text-black">AIT Bangkok</small>
+                  <p class="pt-3 text-muted text-truncate-3">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+                </a>
                 <!-- <a href="#" class="btn btn-link px-0">Start Reading →</a> -->
               </div>
               <div class="custom-border p-2 mb-4 bg-white">
-                <h6 class="m-0">2025 Global Conference</h6>
-                <small>8th August 2025</small><br>
-                <small>AIT Bangkok</small>
-                <p class="pt-3" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+                <a href="indv-event.html" target="_blank" style="text-decoration: none;">
+                  <h6 class="m-0 text-black">2025 Global Conference</h6>
+                  <small class="text-black">8th August 2025</small><br>
+                  <small class="text-black">AIT Bangkok</small>
+                  <p class="pt-3 text-muted text-truncate-3">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+                </a>
                 <!-- <a href="#" class="btn btn-link px-0">Start Reading →</a> -->
               </div>
-              <div class="custom-border p-4 mb-4 bg-white">
-                <h6 class="m-0">2025 Global Conference</h6>
-                <small>8th August 2025</small><br>
-                <small>AIT Bangkok</small>
-                <p class="pt-3" style="display: -webkit-box; -webkit-line-clamp: 4;  -webkit-box-orient: vertical; overflow: hidden; ">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+              <div class="custom-border p-2 mb-4 bg-white">
+                <a href="indv-event.html" target="_blank" style="text-decoration: none;">
+                  <h6 class="m-0 text-black">2025 Global Conference</h6>
+                  <small class="text-black">8th August 2025</small><br>
+                  <small class="text-black">AIT Bangkok</small>
+                  <p class="pt-3 text-muted text-truncate-3">The Decree provide detailed rules on recycling of discarded products and packaging materials under the Extended Producer Responsibility (EPR). The Decree sets out a list of regulated products and compulsory recycling rates, and provides for rules on the Environmental Protection Fund, producers’ obligations to formulate recycling plans, disclose product information, and report recycling performance.</p>
+                </a>
                 <!-- <a href="#" class="btn btn-link px-0">Start Reading →</a> -->
               </div>
             </div>
@@ -161,10 +163,10 @@
               <div class="card h-100 card card-rounded s-border box-shadow tns-item tns-slide-cloned m-10">
                 <img src="/imgs/card1.png" class="card-img-top" alt="TONTOTON">
                 <div class="card-body">
-                  <h5 class="card-title">TONTOTON</h5>
+                  <h5 class="card-title mb-0">TONTOTON</h5>
                   <small>Cambodia</small>
-                  <p class="card-text text-truncate-3">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
-                  <a href="good-practices-indv.html" class="btn btn-link px-0">Start Reading →</a>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -173,9 +175,9 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card2.png" class="card-img-top" alt="NETS UP">
                 <div class="card-body">
-                  <h5 class="card-title">NETS UP</h5>
+                  <h5 class="card-title mb-0">NETS UP</h5>
                   <small>Thailand</small>
-                  <p class="card-text text-truncate-3">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
                   <a href="#" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
@@ -184,10 +186,10 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
                 <div class="card-body">
-                  <h5 class="card-title">Craft Village Development</h5>
+                  <h5 class="card-title mb-0">Craft Village Development</h5>
                   <small>Thailand</small>
-                  <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
-                  <a href="good-practices-indv.html" class="btn btn-link px-0">Start Reading →</a>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -195,10 +197,10 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
                 <div class="card-body">
-                  <h5 class="card-title">Craft Village Development</h5>
+                  <h5 class="card-title mb-0">Craft Village Development</h5>
                   <small>Thailand</small>
-                  <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
-                  <a href="#" class="btn btn-link px-0">Start Reading →</a>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -206,10 +208,10 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
                 <div class="card-body">
-                  <h5 class="card-title">Craft Village Development</h5>
+                  <h5 class="card-title mb-0">Craft Village Development</h5>
                   <small>Thailand</small>
-                  <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
-                  <a href="#" class="btn btn-link px-0">Start Reading →</a>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -217,10 +219,10 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
                 <div class="card-body">
-                  <h5 class="card-title">Craft Village Development</h5>
+                  <h5 class="card-title mb-0">Craft Village Development</h5>
                   <small>Thailand</small>
                   <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
-                  <a href="#" class="btn btn-link px-0">Start Reading →</a>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -228,10 +230,10 @@
               <div class="card h-100 s-border box-shadow">
                 <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
                 <div class="card-body">
-                  <h5 class="card-title">Craft Village Development</h5>
+                  <h5 class="card-title mb-0">Craft Village Development</h5>
                   <small>Thailand</small>
-                  <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
-                  <a href="#" class="btn btn-link px-0">Start Reading →</a>
+                  <p class="card-text text-truncate-3 mt-3 text-muted">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+                  <a href="indv-news.html" class="btn btn-link px-0">Start Reading →</a>
                 </div>
               </div>
             </div>
@@ -277,53 +279,50 @@
       </section> -->
 
       <!-- Footer -->
-      <footer class="bg-light ptb-120">
-        <div class="container">
-          <div class="row text-muted  g-sm-2">
-            <div class="col-12 col-md-3 col-lg-3">
-              <img src="/imgs/Logo.png" alt="KnowWaste" height="40" class="pb-3">
-              <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
-              <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
-              <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
-              
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Quick Links</h5>
-              <ul class="list-unstyled ">
-                <li><a href="about.html">About</a></li>
-                <li><a href="marine debris.html">Marine Debris</a></li>
-                <li><a href="news.html">News</a></li>
-                <!-- <li><a href="#">Events</a></li> -->
-              </ul>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Marine Debris</h5>
-              <ul class="list-unstyled ">
-                <li><a href="data.html">Data</a></li>
-                <li><a href="policy.html">Policy</a></li>
-                <li><a href="good-practices.html">Good Practices</a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Social Media</h5>
-              <div class="list-unstyled ">
-                <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
-                <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
-                <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <div class="container">
-        <div class="d-flex text-center small text-muted py-3 justify-content-between align-items-center custom-wrap">
-          <div class="d-flex">
-            <img src="/imgs/rrcap-logo.png" alt="" class="pe-5 footer-logo">
-            <img src="/imgs/SSl-logo.png" alt="" class="footer-logo">
-          </div>
-            <small>© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
-          </div>
+      <footer style="background-color: #212529;">
+  <div class= "container container-md container-lg pt-60 pb-60">
+    <div class="row text-white g-sm-2">
+      <div class="col-12 col-md-3 col-lg-3">
+        <img src="/imgs/rrcp-logo.png" alt="KnowWaste" height="50" class="pb-3">
+        <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
+        <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
+        <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
+        
       </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled ">
+          <li><a href="about.html">About</a></li>
+          <li><a href="marine debris.html">Marine Debris</a></li>
+          <li><a href="news.html">News</a></li>
+          <!-- <li><a href="#">Events</a></li> -->
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Marine Debris</h5>
+        <ul class="list-unstyled ">
+          <li><a href="data.html">Data</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="good-practices.html">Good Practices</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Social Media</h5>
+        <div class="list-unstyled ">
+          <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
+          <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
+          <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
+        </div>
+      </div>
+    </div>
+    
+     
+  </div>
+  <hr class="text-white">
+    <div class="text-white text-center pb-4">
+      <small class="fw-lighter">© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
+    </div>
+  </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>

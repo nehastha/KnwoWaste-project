@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3 sticky-top">
         <div class="container container-md container-lg">
           <a class="navbar-brand" href="index.html"><img src="/imgs/Logo.png" alt="KnowWaste" class="logo-height"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -21,7 +21,15 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav align-items-center">
-              <li class="nav-item text-uppercase fw-bold pe-2"><a class="nav-link " href="about.html">About</a></li>
+              <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
+                <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About
+                  <i class="bi bi-chevron-down icon-hidden pl-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="expert.html">Experts</a></li>
+                </ul>
+              </li>
               <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
                   <a class="nav-link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marine Debris
                   <i class="bi bi-chevron-down icon-hidden pl-2"></i>
@@ -80,14 +88,14 @@
     <div class="accordion" id="featuresAccordion">
       <div class="accordion-item custom-accordion-item">
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#featureOne" aria-expanded="true">
+          <button class="accordion-button fs-5 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#featureOne" aria-expanded="true">
             Data
           </button>
         </h2>
         <div id="featureOne" class="accordion-collapse collapse show">
           <div class="accordion-body d-flex flex-wrap align-items-center w-100">
             <div class="col-12 col-md-6 col-lg-6">
-              <p>This section compiles and presents waste-related data from across ASEAN, helping stakeholders make evidence-based decisions to address marine litter and improve waste management. You will find data on waste generation, collection, recycling, and disposal. Our aim is to make this information accessible and actionable for policymakers, researchers, and practitioners working toward more sustainable systems.</p>
+              <p class="text-muted">This section compiles and presents waste-related data from across ASEAN, helping stakeholders make evidence-based decisions to address marine litter and improve waste management. You will find data on waste generation, collection, recycling, and disposal. Our aim is to make this information accessible and actionable for policymakers, researchers, and practitioners working toward more sustainable systems.</p>
               
               <a href="data.html" class="text-primary fw-bold">Explore Now →</a>
             </div>
@@ -107,14 +115,14 @@
       <!-- Additional Items -->
       <div class="accordion-item custom-accordion-item">
         <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#featureTwo">
+          <button class="accordion-button collapsed fs-5 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#featureTwo">
             Policy
           </button>
         </h2>
         <div id="featureTwo" class="accordion-collapse collapse">
           <div class="accordion-body d-flex flex-wrap align-items-center w-100">
             <div class="col-12 col-md-6 col-lg-6">
-              <p>This section compiles and presents waste-related data from across ASEAN, helping stakeholders make evidence-based decisions to address marine litter and improve waste management. You will find data on waste generation, collection, recycling, and disposal. Our aim is to make this information accessible and actionable for policymakers, researchers, and practitioners working toward more sustainable systems.</p>
+              <p class="text-muted">This section compiles and presents waste-related data from across ASEAN, helping stakeholders make evidence-based decisions to address marine litter and improve waste management. You will find data on waste generation, collection, recycling, and disposal. Our aim is to make this information accessible and actionable for policymakers, researchers, and practitioners working toward more sustainable systems.</p>
               
               <a href="policy.html" class="text-primary fw-bold">Explore Now →</a>
             </div>
@@ -133,14 +141,14 @@
       </div>
       <div class="accordion-item custom-accordion-item">
         <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#featureThree">
+          <button class="accordion-button collapsed fs-5 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#featureThree">
             3RProMAR
           </button>
         </h2>
         <div id="featureThree" class="accordion-collapse collapse">
           <div class="accordion-body d-flex flex-wrap align-items-center w-100">
             <div class="col-12 col-md-6 col-lg-6">
-              <p>The “Reduce, Reuse, Recycle to Protect the Marine Environment and Coral Reefs”(3RproMar) project supports ASEAN countries in tackling marine litter through improved waste management. As the Knowledge Partner for 3RproMar, we share resources, technical guidance, and best practices developed through this initiative. This page provides updates and learning materials that strengthen capacity and foster regional collaboration to protect marine ecosystems.</p>
+              <p class="text-muted">The “Reduce, Reuse, Recycle to Protect the Marine Environment and Coral Reefs”(3RproMar) project supports ASEAN countries in tackling marine litter through improved waste management. As the Knowledge Partner for 3RproMar, we share resources, technical guidance, and best practices developed through this initiative. This page provides updates and learning materials that strengthen capacity and foster regional collaboration to protect marine ecosystems.</p>
               
               <a href="3promar-reports.html" class="text-primary fw-bold">Explore Now →</a>
             </div>
@@ -159,14 +167,14 @@
       </div>
       <div class="accordion-item custom-accordion-item">
         <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#featureFour">
+          <button class="accordion-button collapsed fs-5 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#featureFour">
             E-learning
           </button>
         </h2>
         <div id="featureFour" class="accordion-collapse collapse">
           <div class="accordion-body d-flex flex-wrap align-items-center w-100">
             <div class="col-12 col-md-6 col-lg-6">
-              <p>Build your knowledge and skills through our interactive e-learning resources. Here we offer self-paced courses and training materials on sustainable waste management, climate resilience, circular economy, and marine debris prevention. Whether you are a policymaker, professional, educator, or student, these learning tools will help you develop practical strategies and innovative thinking to support a cleaner and healthier environment.</p>
+              <p class="text-muted">Build your knowledge and skills through our interactive e-learning resources. Here we offer self-paced courses and training materials on sustainable waste management, climate resilience, circular economy, and marine debris prevention. Whether you are a policymaker, professional, educator, or student, these learning tools will help you develop practical strategies and innovative thinking to support a cleaner and healthier environment.</p>
               
               <a href="e-learning.html" class="text-primary fw-bold">Explore Now →</a>
             </div>
@@ -197,13 +205,16 @@
     <h2 class="section-title">NETWORKS OF PRACTICE</h2>
     <div class="row  mt-4 bg-white p-5">
       <div class="col-12 col-md-6 col-lg-6">
-        <img src="/imgs/partner1.png" class="mx-3 my-2" alt="IKHAPP" >
-        <p>International Knowledge Hub Against Plastic Pollution</p>
+        <a href="https://ikhapp.org/" target="_blank" style="text-decoration: none;">
+          <img src="/imgs/partner1.png" class="mx-3 my-2" alt="IKHAPP" height="100px">
+          <p class="text-black">International Knowledge Hub Against Plastic Pollution</p>
+        </a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <img src="/imgs/partner2.png" class="mx-3 my-2" alt="RKC-MPD" >
-        <p> Regional Knowledge Centre for Marine Plastic
-Debris RKC-MPD ERIA</p>
+        <a href="https://rkcmpd-eria.org/" target="_blank" style="text-decoration: none;">
+          <img src="/imgs/rkcmpd-logo.svg" class="mx-3 my-3 p-2" alt="RKC-MPD" height="75px">
+          <p class="text-black"> Regional Knowledge Centre for Marine Plastic Debris RKC-MPD ERIA</p>
+        </a>
       </div>
     </div>
   </div>
@@ -221,7 +232,7 @@ Debris RKC-MPD ERIA</p>
           <div class="card-body">
             <h5 class="card-title">TONTOTON</h5>
             <small>Cambodia</small>
-            <p class="card-text text-truncate-3">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
+            <p class="card-text text-truncate-3 text-muted mt-3">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -233,7 +244,7 @@ Debris RKC-MPD ERIA</p>
           <div class="card-body">
             <h5 class="card-title">NETS UP</h5>
             <small>Thailand</small>
-            <p class="card-text text-truncate-3">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
+            <p class="card-text text-truncate-3 text-muted mt-3">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -244,7 +255,7 @@ Debris RKC-MPD ERIA</p>
           <div class="card-body">
             <h5 class="card-title">Craft Village Development</h5>
             <small>Thailand</small>
-            <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+            <p class="card-text text-truncate-3 text-muted mt-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -257,11 +268,11 @@ Debris RKC-MPD ERIA</p>
 </section>
 
 <!-- Footer -->
-<footer class="bg-light ptb-120">
-  <div class=container container-md container-lg>
-    <div class="row text-muted  g-sm-2">
+<footer style="background-color: #212529;">
+  <div class= "container container-md container-lg pt-60 pb-60">
+    <div class="row text-white g-sm-2">
       <div class="col-12 col-md-3 col-lg-3">
-        <img src="/imgs/Logo.png" alt="KnowWaste" height="40" class="pb-3">
+        <img src="/imgs/rrcp-logo.png" alt="KnowWaste" height="50" class="pb-3">
         <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
         <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
         <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
@@ -293,17 +304,14 @@ Debris RKC-MPD ERIA</p>
         </div>
       </div>
     </div>
+    
+     
   </div>
+  <hr class="text-white">
+    <div class="text-white text-center pb-4">
+      <small class="fw-lighter">© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
+    </div>
 </footer>
-<div class=container container-md container-lg>
-  <div class="d-flex text-center small text-muted py-3 justify-content-between align-items-center custom-wrap">
-    <div class="d-flex">
-      <img src="/imgs/rrcap-logo.png" alt="" class="pe-5 footer-logo">
-      <img src="/imgs/SSl-logo.png" alt="" class="footer-logo">
-    </div>
-      <small>© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
-    </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

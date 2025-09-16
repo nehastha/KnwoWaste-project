@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ptb-3 sticky-top">
   <div class="container container-md container-lg">
     <a class="navbar-brand" href="index.html"><img src="/imgs/Logo.png" alt="KnowWaste" class="logo-height"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -21,7 +21,15 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
-        <li class="nav-item text-uppercase fw-bold pe-2"><a class="nav-link " href="about.html">About</a></li>
+        <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
+                <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About
+                  <i class="bi bi-chevron-down icon-hidden pl-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="expert.html">Experts</a></li>
+                </ul>
+              </li>
         <li class="nav-item text-uppercase fw-bold pe-2 dropdown">
             <a class="nav-link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marine Debris
             <i class="bi bi-chevron-down icon-hidden pl-2"></i>
@@ -74,8 +82,15 @@
     <div class="pb-4">
       <h1 class="section-title mb-5 text-uppercase ">TONTON</h2>
         <div class="d-flex justify-content-between mb-4">
-         <small><span>By: Mae Jordaine B. Diopenes </span> <span>Dec, 7 2024</span></small> 
-         <small>Share on: <span><i class="bi bi-telephone pe-2"></i><i class="bi bi-telephone pe-2"></i><i class="bi bi-telephone pe-2"></i></span></small>
+          <small><span>By: Mae Jordaine B. Diopenes </span> <span>Dec, 7 2024</span></small> 
+          <small>Share on: 
+            <span>
+              <i class="bi bi-facebook pe-2"></i>
+              <i class="bi bi-linkedin pe-2"></i>
+              <i class="bi bi-twitter-x pe-2"></i>
+              <i class="bi bi-envelope pe-2"></i>
+            </span>
+          </small>
         </div>
         <div class="mb-40" style="width: 100%; height: 500px;">
            <img src="imgs/img1.jfif" alt="" style="width: 100%; height: 100%; object-fit: cover;">
@@ -83,9 +98,9 @@
       
     </div>
    
-    <div class="content">
+    <div class="content text-muted">
       <div class="content-1 mb-40">
-        <h5>Background</h5>
+        <h5 class="text-black">Background</h5>
         <p>TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
         <p>They work with the local, informal waste pickers to collect the plastic from the environment and their household partnerships and take them to be processed at their Material Recovery Facility. </p>
         <ul>Its main objectives are:
@@ -97,22 +112,22 @@
         <p>They also have operations in Vietnam.</p>
       </div>
       <div class="content-2 mb-40">
-        <h5>Result Achieved</h5>
+        <h5 class="text-black">Result Achieved</h5>
         <p>TONTOTON collected almost 3,000 tons of plastic diverted from the environment. Additionally, they have equipped over 400 houses with a plastic segregation system to avoid plastic leakage. TONTOTON have also involved hundreds of informal waste pickers and provided an additional monthly income of $10-12. </p>
         <p>They have also built two classrooms using recycled plastic for the M'Lop Tapang Community Educational Center, supporting 300 children in Phum Thmey village in Cambodia, in collaboration with their NGO partner, M’Lop Tapang.</p>
       </div>
       <div class="content-3 mb-40">
-        <h5>Challenges and Lesson Learned</h5>
+        <h5 class="text-black">Challenges and Lesson Learned</h5>
         <p>The coastal settlements where TONTOTON works, such as the floating community of Oh Vietnam, were formerly plagued by surplus garbage and plastic waste that accumulated and even entered people's homes. The lack of effective trash collection and disposal infrastructure in these locations poses a huge barrier, which TONTOTON is attempting to overcome.</p>
         <p>TONTOTON's primary focus is on "valueless plastic" - typical everyday packaging and trash plastic that currently has no financial incentive for collection and recycling. While TONTOTON has discovered ways to recycle this plastic, such as using it as an alternative fuel source for cement manufacturing, the technology is still in its early stages and cannot be fully commercialized.</p>
       </div>
       <div class="content-4 mb-40">
-        <h5>Replicability</h5>
+        <h5 class="text-black">Replicability</h5>
         <p>TONTOTON’s program is an example of empowering local communities to solve an issue faced by all. They worked with the informal waste sector to augment their income as well as improve the lives of the people in the community by collecting the plastic waste. It is an example of working together with the local community to solve a community wide problem. Additionally, they have collaborated with other local NGOs to provide innovative solutions, such as a classroom made of recycled plastic boards. </p>
         <p>Other projects should look to TONTOTON as an example of working with the local community and other local stakeholders to address the local problems.</p>
       </div>
       <div class="content-5 mb-40">
-        <h5>References</h5>
+        <h5 class="text-black">References</h5>
         <ul>
           <li><a href="https://www.b2b-cambodia.com/news/tontoton-recognised-by-unesco-green-citizens-for-plastic-pollution-initiative/">TONTOTON Recognised By UNESCO Green Citizens For Plastic Pollution Initiative</a></li>
           <li><a href="https://tontoton.com/projects/cambodia/">TONTON Project Cambodia</a></li>
@@ -132,9 +147,9 @@
         <div class="card h-100 card card-rounded s-border box-shadow tns-item tns-slide-cloned m-10">
           <img src="/imgs/card1.png" class="card-img-top" alt="TONTOTON">
           <div class="card-body">
-            <h5 class="card-title">TONTOTON</h5>
+            <h5 class="card-title mb-0">TONTOTON</h5>
             <small>Cambodia</small>
-            <p class="card-text text-truncate-3">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
+            <p class="card-text text-truncate-3 text-muted mt-3">TONTOTON works in Sihanoukville, Cambodia to prevent plastic waste from entering the environment by creating a community-based solution for the management of plastics through a certified plastic credit system. </p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -144,9 +159,9 @@
         <div class="card h-100 s-border box-shadow">
           <img src="/imgs/card2.png" class="card-img-top" alt="NETS UP">
           <div class="card-body">
-            <h5 class="card-title">NETS UP</h5>
+            <h5 class="card-title mb-0">NETS UP</h5>
             <small>Thailand</small>
-            <p class="card-text text-truncate-3">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
+            <p class="card-text text-truncate-3  text-muted mt-3">SCG Chemicals (SCGC), a leading regional player in the chemical business with a focus on business growth and sustainability, has collaborated with the Ministry of Natural Resources and Environment, local small-scale fishing commun</p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -155,9 +170,9 @@
         <div class="card h-100 s-border box-shadow">
           <img src="/imgs/card3.png" class="card-img-top" alt="Craft Village">
           <div class="card-body">
-            <h5 class="card-title">Craft Village Development</h5>
+            <h5 class="card-title mb-0">Craft Village Development</h5>
             <small>Thailand</small>
-            <p class="card-text text-truncate-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
+            <p class="card-text text-truncate-3  text-muted mt-3">Craft villages in Vietnam have a rich history that dates back several centuries. In recognition of their contribution to the socio-economic development of Vietnam’s rural areas, the Government Decree 2006 issued a number of policies on the development of craft villages with the aim of creating local employment opportunities</p>
             <a href="#" class="btn btn-link px-0">Start Reading →</a>
           </div>
         </div>
@@ -167,53 +182,50 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-light ptb-120">
-        <div class="container">
-          <div class="row text-muted  g-sm-2">
-            <div class="col-12 col-md-3 col-lg-3">
-              <img src="/imgs/Logo.png" alt="KnowWaste" height="40" class="pb-3">
-              <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
-              <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
-              <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
-              
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Quick Links</h5>
-              <ul class="list-unstyled ">
-                <li><a href="about.html">About</a></li>
-                <li><a href="marine debris.html">Marine Debris</a></li>
-                <li><a href="news.html">News</a></li>
-                <!-- <li><a href="#">Events</a></li> -->
-              </ul>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Marine Debris</h5>
-              <ul class="list-unstyled ">
-                <li><a href="data.html">Data</a></li>
-                <li><a href="policy.html">Policy</a></li>
-                <li><a href="good-practices.html">Good Practices</a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-              <h5>Social Media</h5>
-              <div class="list-unstyled ">
-                <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
-                <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
-                <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <div class="container">
-        <div class="d-flex text-center small text-muted py-3 justify-content-between align-items-center custom-wrap">
-          <div class="d-flex">
-            <img src="/imgs/rrcap-logo.png" alt="" class="pe-5 footer-logo">
-            <img src="/imgs/SSl-logo.png" alt="" class="footer-logo">
-          </div>
-            <small>© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
-          </div>
+<footer style="background-color: #212529;">
+  <div class= "container container-md container-lg pt-60 pb-60">
+    <div class="row text-white g-sm-2">
+      <div class="col-12 col-md-3 col-lg-3">
+        <img src="/imgs/rrcp-logo.png" alt="KnowWaste" height="50" class="pb-3">
+        <p class="m-0"><i class="bi bi-telephone pe-2"></i> (662) 516-2124</p>
+        <p class="m-0"><i class="bi bi-envelope pe-2"></i>warm@rrcap.ait.ac.th</p>
+        <div class="d-flex m-0"><i class="bi bi-geo-alt pe-2"></i><p> Asian Institute of Technology <br> P.O Box (4) 3rd Floor, Outreach Building <br> 58 Moo 9 Km 42, Paholyothin Highway, Pathumthani 12120, Thailand</p></div>
+        
       </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled ">
+          <li><a href="about.html">About</a></li>
+          <li><a href="marine debris.html">Marine Debris</a></li>
+          <li><a href="news.html">News</a></li>
+          <!-- <li><a href="#">Events</a></li> -->
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Marine Debris</h5>
+        <ul class="list-unstyled ">
+          <li><a href="data.html">Data</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="good-practices.html">Good Practices</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5>Social Media</h5>
+        <div class="list-unstyled ">
+          <span class="pe-1"><a href="https://www.linkedin.com/showcase/know-waste-knowledge-platform/" target="_blank"><i class="bi bi-linkedin h5"></i></a></span>
+          <span class="pe-1"><a href="https://www.instagram.com/kwk.platform/" target="_blank"><i class="bi bi-instagram h5"></i></a></span>
+          <span class="pe-1"><a href="https://x.com/kwk_platform" target="_blank"><i class="bi bi-twitter-x h5"></i></a></span>
+        </div>
+      </div>
+    </div>
+    
+     
+  </div>
+  <hr class="text-white">
+    <div class="text-white text-center pb-4">
+      <small class="fw-lighter">© 2025 Regional Resource Center for Asia and the Pacific (RRC.AP). All rights reserved.</small>
+    </div>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

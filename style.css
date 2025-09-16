@@ -24,8 +24,19 @@
     padding-bottom: 120px;
 }
 
+.pt-120{
+  padding-top: 120px;
+}
+
 .pb-120{
     padding-bottom:120px ;
+}
+
+.pb-60{
+  padding-bottom: 60px;
+}
+.pt-60{
+  padding-top: 60px;
 }
 
 .mtb-120{
@@ -45,6 +56,10 @@
 
 .zindx-5{
   z-index: 5;
+}
+
+.text-black, strong{
+  color: #212529;
 }
 
 .hero-section {
@@ -89,7 +104,7 @@
   color: #0FB4DF;
 }
 .about-img{
-  background-image: url('/imgs/about.png');
+  background-image: url('/imgs/about-us.JPG');
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -117,7 +132,8 @@
 /* Footer */
 footer a {
   text-decoration: none;
-  color: #212529bf;
+  /* color: #212529bf; */
+  color: #ffffff;
 }
 footer a:hover {
   text-decoration: underline;
@@ -303,6 +319,34 @@ footer a:hover {
   height: fit-content;
 }
 
+.row-toggle.collapsed, .custom-row.collapse, .border-top{
+  border-top: 1px solid #DEE2E6;
+}
+
+.br-8{
+  border-radius: 8px;
+}
+
+/* .chevron-toggle[aria-expanded="false"] .chevron-icon {
+  transform: rotate(0deg);
+}
+
+.chevron-toggle[aria-expanded="true"] .chevron-icon {
+  transform: rotate(180deg);
+}
+
+.chevron-icon {
+  transition: transform 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+.icon-toggle[aria-expanded=false] .expanded {
+  display: none;
+}
+.icon-toggle[aria-expanded=true] .collapsed {
+  display: none;
+} */
+
 /* .section-title {
       border-left: 4px solid #00aaff; 
       padding-left: 10px;
@@ -312,6 +356,11 @@ footer a:hover {
     .card {
       border-radius: 8px;
     } */
+
+/* .owl-item {
+  -webkit-box-shadow: 0px 6px 7px 1px rgba(144,144,144,0.36); 
+  box-shadow: 0px 6px 7px 1px rgba(144,144,144,0.36);
+} */
 
 /* Media queries */
 @media ( max-width: 768px) {
